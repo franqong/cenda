@@ -31,3 +31,9 @@ GEMINI.md
 # Added by cargo
 
 /target
+
+# Binarios sueltos en carpetas de código
+src/*.exe
+src/*.pdb
+src/main
+src/app
