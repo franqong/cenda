@@ -1,7 +1,13 @@
-# Cenda: Security Auditor
+<p align="center">
+  <picture>
+    <img src="assets/images/cenda-logo.svg" width="800" alt="CENDA">
+  </picture>
+</p>
 
-Small, read-only Linux security configuration auditor written in Rust.
+<h4 align="center">Small, read-only Linux security configuration auditor written in Rust.</h4>
 
+<br>
+    
 `cenda` revisa un conjunto reducido de configuraciones básicas de seguridad de un sistema Linux y genera un reporte legible para humanos o en formato JSON.
 
 El proyecto está pensado como una herramienta educativa y práctica para combinar:
