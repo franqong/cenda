@@ -1,4 +1,4 @@
-use crate::model::{Category, CheckResult, Status}; //imports de los tipos
+use crate::model::{Category, CheckResult, PasswdEntry, Status}; //imports de los tipos
 
 mod model;
 
@@ -13,5 +13,16 @@ fn main() {
         recommendation: None
     };
 
+    let user_test = PasswdEntry{
+        username: String::from("root"),
+        uid: 0,
+        gid: 0,
+        home: String::from("/root"),
+        shell: String::from("/bin/bash")
+    };
+
     println!("Check ID: {}", check_test.id);
+    println!("User: {}", user_test.username);
+    println!("UID: {}", user_test.uid);
+    
 }
