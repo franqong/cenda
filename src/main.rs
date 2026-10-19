@@ -1,6 +1,7 @@
 use crate::model::{Category, CheckResult, PasswdEntry, Status}; //imports de los tipos
 
 mod model;
+mod checks;
 
 fn main() {
     //println!("Cenda: Security Auditor");
