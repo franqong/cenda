@@ -26,3 +26,10 @@ pub struct PasswdEntry {
     pub home: String,
     pub shell: String
 }
+
+pub enum ParseError {
+    InvalidFieldCount,
+    EmptyUsername,
+    InvalidUid,
+    InvalidGid,
+}
